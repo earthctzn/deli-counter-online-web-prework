@@ -1,9 +1,10 @@
 # Write your code here.
 
 def line names
-  if array != []
-    puts "The line is currently #{array}"
-    elsif array = []
-    puts "The line is currently empty."
+  mssg = "The line is currently:"
+  names.each_with_index {|name, index| mssg << " #{index + 1}. #{names}"}
+  if names == []
+    mssg = "The line is currently empty."
   end
+  puts mssg
 end
