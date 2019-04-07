@@ -16,7 +16,7 @@ end
 
 def now_serving (customer)
   if customer.empty? == true
-   return "There is nobody waiting to be served!"
+  puts "There is nobody waiting to be served!"
   end
   puts "Currently serving #{customer.first}."
   customer.shift
