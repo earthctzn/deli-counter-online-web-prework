@@ -2,7 +2,7 @@
 
 def line names
   mssg = "The line is currently:"
-  names.each_with_index {|name, index| mssg << " #{index + 1}. #{names}"}
+  names.each_with_index {|name, index| mssg << " #{index + 1}. #{name}"}
   if names == []
     mssg = "The line is currently empty."
   end
