@@ -12,4 +12,4 @@ end
 def take_a_number (new_customer, name)
   new_customer.push name 
    puts "Welcome, #{name} You are number #{name_list.index(name) + 1} in line.")
- end
+end
