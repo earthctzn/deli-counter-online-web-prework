@@ -13,3 +13,6 @@ def take_a_number (new_customer, name)
   new_customer.push name 
    puts "Welcome, #{name}. You are number #{new_customer.index(name) + 1} in line."
 end
+
+def now_serving (customer, name)
+  
