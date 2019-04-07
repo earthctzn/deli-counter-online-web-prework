@@ -15,5 +15,7 @@ def take_a_number (new_customer, name)
 end
 
 def now_serving (customer)
-  if customer = 
+  if customer.empty? == true
+    return "There is nobody waiting to be served!"
+  end
   
