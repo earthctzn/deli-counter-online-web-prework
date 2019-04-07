@@ -1,6 +1,6 @@
 # Write your code here.
 
-def line(array)
+def line 
   if array != []
     puts "The line is currently #{array}"
     elsif array = []
