@@ -9,6 +9,6 @@ def line (customers)
   puts mssg
 end
 
-def take_a_number (new_customer)
-   puts "Welcome, #{|name|} You are number 1 in line.")
+def take_a_number (new_customer, name)
+   puts "Welcome, #{name} You are number 1 in line.")
   new_customer.each_with_index {
