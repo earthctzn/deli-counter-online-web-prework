@@ -1,9 +1,9 @@
 # Write your code here.
 
-def line names
+def line customers
   mssg = "The line is currently:"
-  names.each_with_index {|name, index| mssg << " #{index + 1}. #{name}"}
-  if names == []
+  customers.each_with_index {|name, index| mssg << " #{index + 1}. #{name}"}
+  if customers == []
     mssg = "The line is currently empty."
   end
   puts mssg
