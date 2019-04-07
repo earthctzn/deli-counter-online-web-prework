@@ -8,3 +8,5 @@ def line (customers)
   end
   puts mssg
 end
+
+def take_a_number ()
