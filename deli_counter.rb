@@ -19,3 +19,4 @@ def now_serving (customer)
     return "There is nobody waiting to be served!"
   end
   
+  
