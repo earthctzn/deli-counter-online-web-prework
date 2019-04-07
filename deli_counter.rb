@@ -14,5 +14,6 @@ def take_a_number (new_customer, name)
    puts "Welcome, #{name}. You are number #{new_customer.index(name) + 1} in line."
 end
 
-def now_serving (customer, name)
+def now_serving (customer)
+  if customer = 
   
