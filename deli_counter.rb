@@ -10,5 +10,5 @@ def line (customers)
 end
 
 def take_a_number (new_customer)
-  mssg = "Welcome, #{|name|} You are number 1 in line.")
+   = "Welcome, #{|name|} You are number 1 in line.")
   new_customer.each_with_index {
