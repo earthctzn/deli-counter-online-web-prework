@@ -10,5 +10,6 @@ def line (customers)
 end
 
 def take_a_number (new_customer, name)
+  new_customer.push name 
    puts "Welcome, #{name} You are number 1 in line.")
-  new_customer.each_with_index {
+ end
